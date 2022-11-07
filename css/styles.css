@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+}
+#header {
+  text-align: center;
+  background-color: #81C6E8;
+  font-family:sans-serif;
+  /*
+  background-image:url(https://www.wccaviation.com/frontend/images/metas/homepage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  */
+}
+
+.logo {
+  width: 300px;
+  margin-left: 80%;
+  padding-top: 20px;
+}
+.title-header {
+  padding: 10% 15% 5%; /* Top | Left and Right | bottom*/
+}
+
+.h1-header {
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.h2-header {
+  padding-bottom: 20 0px; /*top and bottom | left and right*/
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+/*Buttons*/
+.btn {
+  text-decoration: none;
+  border: 2px solid white;
+  background-color: #81C6E8;
+  color: white;
+  padding: 10 25px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.get-started:hover {
+  border-color: #2196F3;
+  color:white;
+  background-color: #2196F3;
+}
+
+
+/*Navigation Bar*/
+.nav-links {
+  padding: 25 40px; /*top and bottom | left and right*/
+  display: inline-block;
+  background-color: #3E6D9C;
+}
+
+.go-to{
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #3E6D9C;
+}
+
+
+/*********ABOUT US*********/
+#about {
+  font-family:sans-serif;
+}
+
+.about-us {
+  text-align: center;
+}
+
+
+.w3-container {
+  text-align: center;
+  padding: 2% 10% 2%;
+}
+
+/*********PEOPLE*********/
+
+#people {
+  text-align: center;
+}
+.cit-img{
+  width: 200px;
+}
+
+.people-card {
+  text-align: center;
+  display: inline-block;
+}
+
+
+.container {
+  text-align: center;
+  padding: 30px;
+}
